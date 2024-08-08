@@ -1,0 +1,6 @@
+-- Migration number: 0001 	 2024-08-08T21:42:28.589Z
+DROP table IF EXISTS city;
+CREATE TABLE city (
+    id INTEGER PRIMARY KEY AUTOINCREMENT,
+    name VARCHAR(255) NOT NULL
+);
